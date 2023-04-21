@@ -45,7 +45,7 @@ console.log(response); // Hello The Maximalist
 // <%- chat.content %>
 // """
 // <% } %>
-const messages = prompt.load("example", {
+const messages = prompt.load("example2", {
     chats: [
         { role: "user", content: "Hello, I am a user" },
         { role: "assistant", content: "Hi, how can I help you?" },
