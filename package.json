@@ -1,26 +1,31 @@
 {
-  "name": "prompt.js",
-  "version": "0.0.1",
-  "description": "A prompt management library for OpenAI GPT-3.5-TURBO and GPT-4",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/themaximal1st/prompt.js.git"
-  },
-  "keywords": [
-    "ai",
-    "gpt-3.5",
-    "gpt-4",
-    "prompt",
-    "management"
-  ],
-  "author": "The Maximalist",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/themaximal1st/prompt.js/issues"
-  },
-  "homepage": "https://github.com/themaximal1st/prompt.js#readme"
+    "name": "prompt.js",
+    "version": "0.0.1",
+    "description": "A prompt management library for OpenAI GPT-3.5-TURBO and GPT-4",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/themaximal1st/prompt.js.git"
+    },
+    "keywords": [
+        "ai",
+        "gpt-3.5",
+        "gpt-4",
+        "prompt",
+        "management"
+    ],
+    "author": "The Maximalist",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/themaximal1st/prompt.js/issues"
+    },
+    "homepage": "https://github.com/themaximal1st/prompt.js",
+    "dependencies": {
+        "debug": "^4.3.4",
+        "ejs": "^3.1.9",
+        "toml": "^3.0.0"
+    }
 }
