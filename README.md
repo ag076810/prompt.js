@@ -31,13 +31,13 @@ prompt.configure({
 });
 
 // Load a plain text prompt
-// > cat example.txt
+// > cat example1.txt
 // Hello <%= name %>
-const response = prompt.load("test1", { name: "The Maximalist" });
+const response = prompt.load("example1", { name: "The Maximalist" });
 console.log(response); // Hello The Maximalist
 
 // Load a TOML prompt
-// > cat example.toml
+// > cat example2.toml
 // <% for (const chat of chats) { %>
 // [[messages]]
 // role = "<%= chat.role %>"
@@ -45,7 +45,7 @@ console.log(response); // Hello The Maximalist
 // <%- chat.content %>
 // """
 // <% } %>
-const messages = prompt.load("test2", {
+const messages = prompt.load("example", {
     chats: [
         { role: "user", content: "Hello, I am a user" },
         { role: "assistant", content: "Hi, how can I help you?" },
