@@ -1,6 +1,6 @@
 {
     "name": "@themaximalist/prompt.js",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "A prompt management library for OpenAI gpt-3.5-turbo and gpt-4",
     "main": "index.js",
     "scripts": {
