@@ -6,7 +6,7 @@ const ejs = require("ejs");
 const TOML = require("toml");
 
 let config = {
-    promptDir: join(__dirname, "prompts")
+    promptDir: process.env.PROMPT_DIR || join(__dirname, "prompts")
 };
 
 class PromptError extends Error {

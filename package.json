@@ -1,7 +1,7 @@
 {
     "name": "@themaximalist/prompt.js",
     "version": "0.0.3",
-    "description": "A prompt management library for OpenAI GPT-3.5-TURBO and GPT-4",
+    "description": "A prompt management library for OpenAI gpt-3.5-turbo and gpt-4",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
