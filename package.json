@@ -1,5 +1,5 @@
 {
-    "name": "@themaximalist/prompt.js",
+    "name": "@ag076810/prompt.js",
     "version": "0.0.4",
     "description": "A prompt management library for OpenAI gpt-3.5-turbo and gpt-4",
     "main": "index.js",
@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/themaximal1st/prompt.js.git"
+        "url": "git+https://github.com/ag076810/prompt.js.git"
     },
     "keywords": [
         "ai",
